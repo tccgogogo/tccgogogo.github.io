@@ -3,13 +3,14 @@ layout:     post
 title:      Adaptive-RAG：让查询处理更智能，检索更精准！
 subtitle:   Adaptive-RAG: Making Query Processing Smarter and Retrieval More Precise!
 date:       2024-01-06
-author:     BY
+author:     tiancc
 # header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
     - RAG
     - LLM
 ---
+
 
 ## 论文来源
 今天分享的是韩国科学技术院发布的一篇工作。
