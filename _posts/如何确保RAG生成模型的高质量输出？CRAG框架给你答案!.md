@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      如何确保RAG生成模型的高质量输出？CRAG框架给你答案!
+subtitle:   CRAG: Ensuring High-Quality Output from RAG Generation Models
+date:       2024-01-06
+author:     BY
+# header-img: img/post-bg-cook.jpg
+catalog: true
+tags:
+    - RAG
+    - LLM
+---
+
 今天分享的是中国科学技术大学、加州大学洛杉矶分校以及谷歌研究院联合发表的一篇工作。
 
 **论文题目**：Corrective Retrieval Augmented Generation
