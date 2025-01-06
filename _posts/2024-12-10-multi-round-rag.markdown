@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "来自工业界的知识库 RAG 方案（一）：多轮会话优化"
-subtitle:   "RAG solution from industry (1): multi-round session optimization"
+title: "Adaptive-RAG：让查询处理更智能，检索更精准！"
+subtitle:   "Adaptive-RAG: Making Query Processing Smarter and Retrieval More Precise!"
 date:       2024-12-10 12:00:00
-author:     "Bryan"
+author:     "tiancc"
 header-mask: 0.3
 catalog:    true
 tags:

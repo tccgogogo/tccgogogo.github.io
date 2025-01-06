@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "来自工业界的知识库 RAG 方案（一）：多轮会话优化"
-subtitle:   "RAG solution from industry (1): multi-round session optimization"
-date:       2024-12-10 12:00:00
-author:     "Bryan"
+title: "如何确保RAG生成模型的高质量输出？CRAG框架给你答案！"
+subtitle:   "CRAG Framework: Ensuring High-Quality Output from RAG Generation Models"
+date:       2024-12-15 12:00:00
+author:     "tiancc"
 header-mask: 0.3
 catalog:    true
 tags:
