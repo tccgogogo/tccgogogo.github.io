@@ -19,7 +19,7 @@ tags:
 **论文链接**：https://arxiv.org/pdf/2401.15884
 
 **代码地址**：https://github.com/HuskyInSalt/CRAG
-![](https://files.mdnice.com/user/80675/ad8eb425-fef1-46e5-9c1f-13839786c45f.png)
+![](/img/CRAG/paper.png)
 
 
 ## 论文概述
@@ -28,7 +28,7 @@ tags:
 ## 核心内容
 
 
-![](https://files.mdnice.com/user/80675/e435dd21-1b71-4117-a85a-5c9070762ff5.png)
+![](/img/CRAG/frame.png)
 针对输入查询及任意检索器返回的检索文档，CRAG构建了一个轻量级检索评估器，用于评估检索文档与输入查询的相关性得分。相关性得分被量化为三种置信度等级，并触发相应的动作：{正确（Correct），错误（Incorrect），模糊（Ambiguous）}。当触发**正确（Correct）**动作时，检索文档将被进一步精炼为更精确的知识片段。这一精炼操作包括知识的分解、过滤和重组。当触发**错误（Incorrect）**动作时，检索文档将被舍弃，转而依赖网络搜索作为补充知识源进行纠正。当**无法自信（Ambiguous）**地判断正确或错误时，将触发一种相对平衡的动作，该动作结合了正确和错误两种处理策略的优势。
 
 ### 检索评估器

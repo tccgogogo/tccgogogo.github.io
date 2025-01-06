@@ -22,7 +22,7 @@ Adaptive-RAG：智能检索策略，提升问答模型效率
  
 
 论文链接：https://arxiv.org/pdf/2403.14403
-![](https://files.mdnice.com/user/80675/464ebac9-3dae-446d-9309-b8680bd880d3.png)
+![](/img/Adaptive-RAG/paper.png)
 
 ## 论文概述
 RAG（Retrieval-Augmented Generation）通过将外部知识库的非参数化知识整合到大型语言模型中，来提升模型的回答准确性，尤其是在一些任务（如问答）中。现有的检索增强方法对于简单查询往往会产生不必要的计算开销，而对于多步骤复杂查询可能无法有效地处理，导致模型的回答不准确或者效率低下。为了应对用户查询的复杂性和多样性，论文的核心思想是提出了一种高度灵活的方法，通过实施自适应的RAG策略，根据问题的复杂度动态调整选择机制，能够在不同情况下评估并决定是否启动检索过程，以及决定检索的深度和范围。
@@ -31,7 +31,7 @@ RAG（Retrieval-Augmented Generation）通过将外部知识库的非参数化�
 ## 核心内容
 提出了 **Adaptive-RAG** 框架，能够根据查询的复杂度动态选择最适合的策略。通过使用一个较小的语言模型作为分类器，自动判断查询的复杂度，并根据判断结果选择已有的最适合的检索策略进行下游任务。
 
-![](https://files.mdnice.com/user/80675/53ec3b83-bf78-44b8-990f-35eb133e64a3.png)
+![](/img/Adaptive-RAG/frame.png)
 
 ### 查询复杂度分类器
 - **作用**：输入是用户查询，输出是对查询复杂度的分类，类别包括：
@@ -51,12 +51,12 @@ RAG（Retrieval-Augmented Generation）通过将外部知识库的非参数化�
 ## 论文总结
 
 - **提出了适应性检索增强的语言模型**：成功地解决了现有检索增强型LLMs在处理不同复杂度查询时面临的效率和准确性平衡问题。实验结果表明，该方法在多个开放域问答数据集上都取得了显著的性能提升。
-![](https://files.mdnice.com/user/80675/99f3f4db-8e13-4fed-8402-5b743ff759e9.png)
+![](/img/Adaptive-RAG/experiment.png)
 - **效率提升**：实验结果显示，Adaptive-RAG在处理简单查询时，能够有效减少检索步骤和响应时间；而在处理复杂查询时，虽然检索步骤增加，但通过精确的多步检索，提高了答案的准确性。
 
 
 
 
 
-![](https://files.mdnice.com/user/80675/d355632b-428f-4ec3-9750-79123f062dde.png)
+![](/img/Adaptive-RAG/experiment2.png)
 
