@@ -8,8 +8,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - RAG
-    - agent
-    - llm
+    - LLM
 ---
 
 ## 论文来源

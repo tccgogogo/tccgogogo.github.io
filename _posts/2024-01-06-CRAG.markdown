@@ -8,8 +8,7 @@ header-mask: 0.3
 catalog:    true
 tags:
     - RAG
-    - agent
-    - llm
+    - LLM
 ---
 ## 论文来源
 今天分享的是中国科学技术大学、加州大学洛杉矶分校以及谷歌研究院联合发表的一篇工作。
