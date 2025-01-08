@@ -1,0 +1,113 @@
+---
+layout: post
+title: "AI搜索爆火！盘点开源项目，最后一个你绝对不能错过"
+subtitle:   "AI Search"
+date:       2024-10-15 20:00:00
+author:     "tiancc"
+header-mask: 0.3
+catalog:    true
+tags:
+    - AI Search
+    - LLM
+---
+## 秘塔搜索：体验最好的搜索AI产品
+非开源，首页：
+
+![](/img/aisearch/mita.png)
+提供**简洁**、**深入**、**研究**三种搜索类型，这三种模式在回答的详细程度和信息来源数量上有所不同。
+- 简洁模式提供简短的搜索结果，适合快速获取问题的核心要点。这种模式通常会从大约30篇文档中提取信息。
+- 深入模式同样基于大约30篇文档，但比简洁模式提供更详细的搜索结果，能够挖掘更多细节。
+- 研究模式是三种模式中最全面的一种，它会从更多的文档中提取信息，适用于需要深入研究和全面了解某一主题的用户。
+
+搜索结果：
+![](/img/aisearch/mita-result.png)
+
+
+## MindSearch：AI 时代的“思考型”搜索引擎
+项目地址：https://github.com/InternLM/mindsearch
+
+![](/img/aisearch/mindsearch.png)
+
+### 特点
+- **深度知识探索**： MindSearch 能够浏览数百个网页，提供更广泛、更深层次的答案，帮助用户深入了解某个主题。
+- **透明的解决方案路径**： MindSearch 会展示其思考路径和搜索关键词等详细信息，提高了搜索结果的可信度和可用性。
+- **多种用户界面**： MindSearch 提供React、Gradio、Streamlit和本地调试等多种用户界面，方便用户根据自己的需求进行选择。
+- **动态图构建**： MindSearch 能够将用户查询分解为图中的子问题节点，并根据WebSearcher的搜索结果逐步扩展图，实现更灵活的搜索策略。
+
+
+## Perplexica: 一个 AI 驱动的搜索引擎 
+项目地址：https://github.com/ItzCrazyKns/Perplexica
+
+![](/img/aisearch/perplexica.png)
+### 特点
+1. **本地 LLM 支持**：可通过 Ollama 使用本地 LLM，如 Llama3 和 Mixtral。
+
+2. **两种主要搜索模式**：Copilot 模式和正常模式。
+
+- Copilot 模式：通过生成更相关的查询，帮助找到更加贴合用户需求的互联网资源。该模式利用 SearxNG 的上下文，同时访问排名靠前的匹配结果，并直接从页面中提取与用户查询相关的信息。
+- 正常模式：直接处理用户查询并执行 Web 搜索。
+3. **专注模式**：提供针对特定问题类型的优化搜索，目前包含 6 种专注模式：
+
+- 所有模式：在整个 Web 上搜索以找到最佳结果。
+
+- 写作助手模式：用于无需搜索 Web 的写作任务。
+
+- 学术搜索模式：查找文章和论文，非常适合学术研究。
+
+- YouTube 搜索模式：根据查询寻找相关的 YouTube 视频。
+
+- Wolfram Alpha 搜索模式：处理需要计算或数据分析的查询。
+
+4. **Reddit 搜索模式**：在 Reddit 上搜索与查询相关的讨论和观点。
+
+5. **实时信息**：不同于依赖爬虫数据并定期更新索引的搜索工具，Perplexica 使用 SearxNG（一个元搜索引擎）实时获取结果，并重新排名，从中提取最相关的内容，确保信息最新。
+
+6. **API 集成**：支持将 Perplexica 集成到现有应用程序中，利用其搜索和分析功能。
+
+## search4all：多功能搜索聚合服务
+项目地址：https://github.com/fatwang2/search4all
+
+![](/img/aisearch/search4all.png)
+### 特点
+- 支持集成 LLM，例如 OpenAI、Groq 和 Claude。
+- 原生集成 Google、Bing、DuckDuckGo 和 SearXNG 等搜索引擎。
+- 提供可自定义、注重用户体验的高颜值界面设计。
+- 支持搜索结果分享，并通过缓存功能提升搜索效率。
+
+
+## MemFree：开源的混合AI搜索引擎
+项目地址：https://github.com/memfreeme/memfree
+
+![](/img/aisearch/memfree.png)
+
+- **混合AI搜索引擎**：结合了本地知识库和互联网搜索，提供精准的即时答案。
+- **多种AI模型**：集成ChatGPT、Claude、Gemini等多种AI能力。
+- **跨设备同步**：跨多个设备保存和同步搜索历史记录。
+- **自动网络搜索决策**：自动确定何时执行互联网搜索。
+- **多种搜索输入格式**：文本、图片、文件、网页，特别支持多图搜索、比较、总结、分析。
+
+## Zure-search-openai-demo：Azure搜索增强生成示例应用
+项目地址：https://github.com/Azure-Samples/azure-search-openai-demo
+
+![](/img/aisearch/azure.png)
+### 特点
+- **Chat和Q&A接口**：支持多轮对话和单轮问答。
+- **答案引用及思路渲染**：每个答案都显示引用及思路。
+- **Azure AI Search集成**：支持多种文档格式的索引和检索。
+- **用户登录及数据访问自动化**：通过Microsoft Entra实现。
+- **性能跟踪及监控**：使用 Application Insights 进行性能跟踪和监控。
+
+## Khoj：你的第二个AI大脑
+项目地址：https://github.com/khoj-ai/khoj?tab=readme-ov-file
+
+
+![](/img/aisearch/khoj.png)
+
+### 特点
+- **整合知识**：Khoj可以理解你的PDFs、Markdown、纯文本、GitHub和Notion文件，并将它们与在线信息整合在一起。
+
+- **替代搜索引擎**：Khoj可以代替你进行互联网搜索，提供最新的信息，访问互联网，获取实时信息并回答你的问题。让你专注于工作，不需要切换标签页或设备，也不需要选链接。
+- **本地搜索**：您的个人数据保留在本地，所有搜索和索引均在本地机器上完成(自托管时)，保护隐私。
+- **多平台访问**：支持桌面应用程序、网页、WhatsApp等多种访问方式。
+- **个性化图像生成和语音理解图像生成**：AI助手可以生成个性化的图像，满足你的特定需求；能够理解和处理你的语音输入，提供语音交互功能。
+- **个性化AI代理**：Khoj提供了创建和管理自定义代理(Agents)的功能，允许用户设置特定的系统提示，满足个性化需求。
